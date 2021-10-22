@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/tvMaphieuDialog"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_margin="20dp"
+            android:hint="Mã phiếu mượn"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:layout_height="80dp">
+            <Spinner
+                android:id="@+id/spinnerThanhvien"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                />
+            <Spinner
+                android:id="@+id/spinnerSach"
+                android:layout_width="200dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="30dp"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/tvNgaythueDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="67dp"
+            android:hint=" Chon nga"
+            />
+
+        <EditText
+            android:id="@+id/tvTienthueDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="67dp"
+            android:hint="Tien thue"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxPhieumuon"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Trạng Thái"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="60dp">
+            <Button
+                android:id="@+id/btnLuuMaP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="	#FF8C00"
+                android:text="Lưu"
+                />
+            <Button
+                android:id="@+id/btnhuyMaP"
+                android:layout_width="wrap_content"
+                android:backgroundTint="	#FF8C00"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

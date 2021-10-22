@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mob_duanmau.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mob_duanmau.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.mob_duanmau.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_phieumuon"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentPhieuMuon"
+        android:label="fragment_phieu_muon"
+        tools:layout="@layout/fragment_phieu_muon" />
+    <fragment
+        android:id="@+id/nav_quanlyloaisach"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentQuanLyLoaiSach"
+        android:label="fragment_quan_ly_sach"
+        tools:layout="@layout/fragment_quan_ly_sach" />
+    <fragment
+        android:id="@+id/nav_quanlysach"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentQuanLySach"
+        android:label="fragment_quan_ly_sach2"
+        tools:layout="@layout/fragment_quan_ly_sach2" />
+    <fragment
+        android:id="@+id/nav_quanlythanhvien"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentQuanLyThanhVien"
+        android:label="fragment_quan_ly_thanh_vien"
+        tools:layout="@layout/fragment_quan_ly_thanh_vien" />
+    <fragment
+        android:id="@+id/nav_thongke"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentThongke"
+        android:label="fragment_thongke"
+        tools:layout="@layout/fragment_thongke" />
+    <fragment
+        android:id="@+id/nav_doanhthu"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentDoanhThu"
+        android:label="fragment_doanh_thu"
+        tools:layout="@layout/fragment_doanh_thu" />
+    <fragment android:id="@+id/nav_thoat" />
+    <fragment
+        android:id="@+id/nav_doimatkhau"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.FragmentDoimatkhau"
+        android:label="fragment_doimatkhau"
+        tools:layout="@layout/fragment_doimatkhau" />
+    <fragment
+        android:id="@+id/nav_themtaikhoan"
+        android:name="com.example.mob_duanmau.ui.FramentPhieuMuon.Fragmentthemtaikhoan"
+        android:label="fragment_fragmentthemtaikhoan"
+        tools:layout="@layout/fragment_fragmentthemtaikhoan" />
+</navigation>
